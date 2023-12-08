@@ -3,8 +3,8 @@
 
 name: Python application
 
-permissions:
-  contents: read
+on:
+workflow_dispatch
 
 jobs:
   build:
